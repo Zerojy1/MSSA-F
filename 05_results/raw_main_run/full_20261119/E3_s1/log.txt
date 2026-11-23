@@ -1,0 +1,65 @@
+[22:39:03] run 20261119_223903_full -> /home/zyl105/Zerojy/projects/rut-mssa-20261119/results/full_20261119/E3_s1; torch=2.12.1+cu126
+[22:39:05] ===== E3 =====
+[22:39:05] [E3] fold 0 seed 1 model mssa test=['STR1', 'STR2', 'STR3']
+[22:39:46]   ep   50 loss 1.5299 nll_f 0.491 nll_ms 1.003 val 0.5331 (40s)
+[22:40:27]   ep  100 loss 1.1363 nll_f 0.399 nll_ms 0.705 val 0.5070 (80s)
+[22:41:08]   ep  150 loss 1.0628 nll_f 0.381 nll_ms 0.656 val 0.4564 (121s)
+[22:41:08]     MSSA[full] trained on 14 (+2 inner val) in 123s
+[22:41:11] [E3] fold 0 seed 1 model persistence test=['STR1', 'STR2', 'STR3']
+[22:41:11] [E3] fold 0 seed 1 model gbm_residual test=['STR1', 'STR2', 'STR3']
+[22:41:20] [E3] fold 0 seed 1 model jtg_enkf test=['STR1', 'STR2', 'STR3']
+[22:41:28] [E3] fold 1 seed 1 model mssa test=['STR4', 'STR5']
+[22:42:12]   ep   50 loss 1.4261 nll_f 0.437 nll_ms 0.967 val 0.4933 (44s)
+[22:42:57]   ep  100 loss 1.0378 nll_f 0.361 nll_ms 0.659 val 0.4929 (88s)
+[22:43:41]   ep  150 loss 0.9745 nll_f 0.348 nll_ms 0.612 val 0.4771 (133s)
+[22:43:50]     MSSA[full] trained on 15 (+2 inner val) in 142s
+[22:43:54] [E3] fold 1 seed 1 model persistence test=['STR4', 'STR5']
+[22:43:54] [E3] fold 1 seed 1 model gbm_residual test=['STR4', 'STR5']
+[22:44:03] [E3] fold 1 seed 1 model jtg_enkf test=['STR4', 'STR5']
+[22:44:10] [E3] fold 2 seed 1 model mssa test=['STR6', 'STR7', 'STR8', 'STR9']
+[22:44:51]   ep   50 loss 1.2941 nll_f 0.418 nll_ms 0.849 val 0.5273 (41s)
+[22:45:32]   ep  100 loss 1.1000 nll_f 0.351 nll_ms 0.731 val 0.4917 (82s)
+[22:46:12]   ep  150 loss 1.0400 nll_f 0.334 nll_ms 0.692 val 0.4545 (122s)
+[22:46:51]   ep  200 loss 0.9827 nll_f 0.322 nll_ms 0.648 val 0.4112 (162s)
+[22:47:31]   ep  250 loss 0.8957 nll_f 0.317 nll_ms 0.566 val 0.4231 (201s)
+[22:47:55]     MSSA[full] trained on 13 (+2 inner val) in 225s
+[22:47:59] [E3] fold 2 seed 1 model persistence test=['STR6', 'STR7', 'STR8', 'STR9']
+[22:47:59] [E3] fold 2 seed 1 model gbm_residual test=['STR6', 'STR7', 'STR8', 'STR9']
+[22:48:07] [E3] fold 2 seed 1 model jtg_enkf test=['STR6', 'STR7', 'STR8', 'STR9']
+[22:48:16] [E3] fold 3 seed 1 model mssa test=['STR10', 'STR12']
+[22:48:58]   ep   50 loss 1.2694 nll_f 0.374 nll_ms 0.872 val 0.4840 (42s)
+[22:49:39]   ep  100 loss 0.9685 nll_f 0.323 nll_ms 0.626 val 0.4907 (83s)
+[22:50:21]   ep  150 loss 0.9282 nll_f 0.306 nll_ms 0.604 val 0.4897 (125s)
+[22:50:54]     MSSA[full] trained on 15 (+2 inner val) in 159s
+[22:50:58] [E3] fold 3 seed 1 model persistence test=['STR10', 'STR12']
+[22:50:58] [E3] fold 3 seed 1 model gbm_residual test=['STR10', 'STR12']
+[22:51:07] [E3] fold 3 seed 1 model jtg_enkf test=['STR10', 'STR12']
+[22:51:14] [E3] fold 4 seed 1 model mssa test=['STR11', 'STR13', 'STR14']
+[22:51:57]   ep   50 loss 1.3692 nll_f 0.397 nll_ms 0.947 val 0.5054 (42s)
+[22:52:38]   ep  100 loss 0.9786 nll_f 0.320 nll_ms 0.635 val 0.4983 (84s)
+[22:53:16]   ep  150 loss 0.8966 nll_f 0.305 nll_ms 0.574 val 0.5224 (122s)
+[22:53:53]   ep  200 loss 0.9028 nll_f 0.294 nll_ms 0.594 val 0.5042 (159s)
+[22:54:08]     MSSA[full] trained on 14 (+2 inner val) in 174s
+[22:54:12] [E3] fold 4 seed 1 model persistence test=['STR11', 'STR13', 'STR14']
+[22:54:12] [E3] fold 4 seed 1 model gbm_residual test=['STR11', 'STR13', 'STR14']
+[22:54:20] [E3] fold 4 seed 1 model jtg_enkf test=['STR11', 'STR13', 'STR14']
+[22:54:28] [E3] fold 5 seed 1 model mssa test=['STR15', 'STR16', 'STR17']
+[22:55:04]   ep   50 loss 1.3267 nll_f 0.407 nll_ms 0.894 val 0.5187 (37s)
+[22:55:44]   ep  100 loss 1.0151 nll_f 0.334 nll_ms 0.656 val 0.4938 (76s)
+[22:56:24]   ep  150 loss 0.9329 nll_f 0.317 nll_ms 0.596 val 0.5025 (116s)
+[22:57:00]   ep  200 loss 0.9512 nll_f 0.312 nll_ms 0.620 val 0.4828 (152s)
+[22:57:39]   ep  250 loss 0.8896 nll_f 0.305 nll_ms 0.567 val 0.5052 (191s)
+[22:57:39]     MSSA[full] trained on 14 (+2 inner val) in 191s
+[22:57:43] [E3] fold 5 seed 1 model persistence test=['STR15', 'STR16', 'STR17']
+[22:57:43] [E3] fold 5 seed 1 model gbm_residual test=['STR15', 'STR16', 'STR17']
+[22:57:52] [E3] fold 5 seed 1 model jtg_enkf test=['STR15', 'STR16', 'STR17']
+[22:58:00] [E3] fold 6 seed 1 model mssa test=['STR18', 'STR19']
+[22:58:39]   ep   50 loss 1.0829 nll_f 0.339 nll_ms 0.722 val 0.5219 (39s)
+[22:59:11]   ep  100 loss 0.9134 nll_f 0.302 nll_ms 0.591 val 0.5060 (71s)
+[22:59:49]   ep  150 loss 0.8997 nll_f 0.292 nll_ms 0.591 val 0.5027 (109s)
+[23:00:19]     MSSA[full] trained on 15 (+2 inner val) in 139s
+[23:00:23] [E3] fold 6 seed 1 model persistence test=['STR18', 'STR19']
+[23:00:23] [E3] fold 6 seed 1 model gbm_residual test=['STR18', 'STR19']
+[23:00:30] [E3] fold 6 seed 1 model jtg_enkf test=['STR18', 'STR19']
+[23:00:38] all done in 21.6 min; building report
+[23:00:41] report written: /home/zyl105/Zerojy/projects/rut-mssa-20261119/results/full_20261119/E3_s1/REPORT.md

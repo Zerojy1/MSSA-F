@@ -1,0 +1,67 @@
+[22:22:53] run 20261119_222253_full -> /home/zyl105/Zerojy/projects/rut-mssa-20261119/results/full_20261119/E1E2_s1; torch=2.12.1+cu126
+[22:22:54] ===== E1E2 =====
+[22:22:54] [E1E2] fold 0 seed 1 model mssa test=['STR1', 'STR8', 'STR19']
+/home/zyl105/Zerojy/projects/rut-mssa-20261119/src/rut_mssa/model.py:206: UserWarning: Converting a tensor with requires_grad=True to a scalar may lead to unexpected behavior.
+Consider using tensor.detach() first. (Triggered internally at /pytorch/torch/csrc/autograd/generated/python_variable_methods.cpp:838.)
+  return loss, {'nll_f': float(nll_f), 'nll_ms': float(nll_ms)}
+[22:23:34]   ep   50 loss 1.2759 nll_f 0.381 nll_ms 0.871 val 0.4657 (38s)
+[22:24:13]   ep  100 loss 0.9696 nll_f 0.337 nll_ms 0.610 val 0.4541 (78s)
+[22:24:53]   ep  150 loss 0.8561 nll_f 0.323 nll_ms 0.514 val 0.4610 (117s)
+[22:25:08]     MSSA[full] trained on 14 (+2 inner val) in 134s
+[22:25:12] [E1E2] fold 0 seed 1 model persistence test=['STR1', 'STR8', 'STR19']
+[22:25:12] [E1E2] fold 0 seed 1 model gbm_residual test=['STR1', 'STR8', 'STR19']
+[22:25:21] [E1E2] fold 0 seed 1 model jtg_global test=['STR1', 'STR8', 'STR19']
+[22:25:26] [E1E2] fold 0 seed 1 model jtg_enkf test=['STR1', 'STR8', 'STR19']
+[22:25:36] [E1E2] fold 0 seed 1 model lstm test=['STR1', 'STR8', 'STR19']
+[22:27:31] [E1E2] fold 0 seed 1 model patchtst test=['STR1', 'STR8', 'STR19']
+[22:29:16] [E1E2] fold 1 seed 1 model mssa test=['STR3', 'STR7', 'STR17']
+[22:29:58]   ep   50 loss 1.4188 nll_f 0.436 nll_ms 0.951 val 0.4717 (43s)
+[22:30:40]   ep  100 loss 1.0716 nll_f 0.376 nll_ms 0.667 val 0.4506 (84s)
+[22:31:21]   ep  150 loss 0.9845 nll_f 0.357 nll_ms 0.600 val 0.4543 (125s)
+[22:31:53]     MSSA[full] trained on 14 (+2 inner val) in 157s
+[22:31:57] [E1E2] fold 1 seed 1 model persistence test=['STR3', 'STR7', 'STR17']
+[22:31:57] [E1E2] fold 1 seed 1 model gbm_residual test=['STR3', 'STR7', 'STR17']
+[22:32:05] [E1E2] fold 1 seed 1 model jtg_global test=['STR3', 'STR7', 'STR17']
+[22:32:09] [E1E2] fold 1 seed 1 model jtg_enkf test=['STR3', 'STR7', 'STR17']
+[22:32:18] [E1E2] fold 1 seed 1 model lstm test=['STR3', 'STR7', 'STR17']
+[22:34:12] [E1E2] fold 1 seed 1 model patchtst test=['STR3', 'STR7', 'STR17']
+[22:35:55] [E1E2] fold 2 seed 1 model mssa test=['STR6', 'STR11', 'STR13']
+[22:36:39]   ep   50 loss 1.4179 nll_f 0.427 nll_ms 0.961 val 0.5566 (44s)
+[22:37:21]   ep  100 loss 1.0562 nll_f 0.359 nll_ms 0.673 val 0.5373 (85s)
+[22:38:02]   ep  150 loss 1.0081 nll_f 0.344 nll_ms 0.647 val 0.5466 (127s)
+[22:38:43]   ep  200 loss 0.9601 nll_f 0.334 nll_ms 0.610 val 0.5127 (168s)
+[22:39:23]   ep  250 loss 0.9555 nll_f 0.329 nll_ms 0.610 val 0.5065 (208s)
+[22:40:02]   ep  300 loss 0.9097 nll_f 0.330 nll_ms 0.565 val 0.4868 (247s)
+[22:40:42]   ep  350 loss 1.0618 nll_f 0.326 nll_ms 0.720 val 0.4898 (286s)
+[22:41:23]   ep  400 loss 0.9475 nll_f 0.325 nll_ms 0.608 val 0.4884 (328s)
+[22:41:23]     MSSA[full] trained on 14 (+2 inner val) in 328s
+[22:41:27] [E1E2] fold 2 seed 1 model persistence test=['STR6', 'STR11', 'STR13']
+[22:41:27] [E1E2] fold 2 seed 1 model gbm_residual test=['STR6', 'STR11', 'STR13']
+[22:41:35] [E1E2] fold 2 seed 1 model jtg_global test=['STR6', 'STR11', 'STR13']
+[22:41:40] [E1E2] fold 2 seed 1 model jtg_enkf test=['STR6', 'STR11', 'STR13']
+[22:41:50] [E1E2] fold 2 seed 1 model lstm test=['STR6', 'STR11', 'STR13']
+[22:43:49] [E1E2] fold 2 seed 1 model patchtst test=['STR6', 'STR11', 'STR13']
+[22:45:30] [E1E2] fold 3 seed 1 model mssa test=['STR2', 'STR12', 'STR18']
+[22:46:09]   ep   50 loss 1.2084 nll_f 0.373 nll_ms 0.799 val 0.5540 (39s)
+[22:46:47]   ep  100 loss 0.9473 nll_f 0.320 nll_ms 0.597 val 0.5738 (78s)
+[22:47:26]   ep  150 loss 0.8470 nll_f 0.312 nll_ms 0.511 val 0.5690 (117s)
+[22:47:57]     MSSA[full] trained on 14 (+2 inner val) in 148s
+[22:48:01] [E1E2] fold 3 seed 1 model persistence test=['STR2', 'STR12', 'STR18']
+[22:48:01] [E1E2] fold 3 seed 1 model gbm_residual test=['STR2', 'STR12', 'STR18']
+[22:48:10] [E1E2] fold 3 seed 1 model jtg_global test=['STR2', 'STR12', 'STR18']
+[22:48:14] [E1E2] fold 3 seed 1 model jtg_enkf test=['STR2', 'STR12', 'STR18']
+[22:48:23] [E1E2] fold 3 seed 1 model lstm test=['STR2', 'STR12', 'STR18']
+[22:50:24] [E1E2] fold 3 seed 1 model patchtst test=['STR2', 'STR12', 'STR18']
+[22:52:09] [E1E2] fold 4 seed 1 model mssa test=['STR10', 'STR15', 'STR16']
+[22:52:50]   ep   50 loss 1.3999 nll_f 0.405 nll_ms 0.970 val 0.4880 (41s)
+[22:53:31]   ep  100 loss 1.0447 nll_f 0.328 nll_ms 0.693 val 0.4706 (82s)
+[22:54:12]   ep  150 loss 0.9218 nll_f 0.312 nll_ms 0.589 val 0.4946 (123s)
+[22:54:36]     MSSA[full] trained on 14 (+2 inner val) in 147s
+[22:54:40] [E1E2] fold 4 seed 1 model persistence test=['STR10', 'STR15', 'STR16']
+[22:54:40] [E1E2] fold 4 seed 1 model gbm_residual test=['STR10', 'STR15', 'STR16']
+[22:54:48] [E1E2] fold 4 seed 1 model jtg_global test=['STR10', 'STR15', 'STR16']
+[22:54:52] [E1E2] fold 4 seed 1 model jtg_enkf test=['STR10', 'STR15', 'STR16']
+[22:55:00] [E1E2] fold 4 seed 1 model lstm test=['STR10', 'STR15', 'STR16']
+[22:57:01] [E1E2] fold 4 seed 1 model patchtst test=['STR10', 'STR15', 'STR16']
+[22:58:44] all done in 35.8 min; building report
+[22:58:47] report written: /home/zyl105/Zerojy/projects/rut-mssa-20261119/results/full_20261119/E1E2_s1/REPORT.md

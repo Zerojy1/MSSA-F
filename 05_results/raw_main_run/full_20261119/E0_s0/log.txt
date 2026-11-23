@@ -1,0 +1,21 @@
+[22:56:04] run 20261119_225604_full -> /home/zyl105/Zerojy/projects/rut-mssa-20261119/results/full_20261119/E0_s0; torch=2.12.1+cu126
+[22:56:06] ===== E0 =====
+[22:56:47]   ep   50 loss -0.8285 nll_f -0.476 nll_ms -0.356 val -0.8285 (40s)
+[22:57:27]   ep  100 loss -1.0818 nll_f -0.577 nll_ms -0.510 val -1.0818 (80s)
+[22:58:08]   ep  150 loss -1.1022 nll_f -0.587 nll_ms -0.520 val -1.1022 (120s)
+[22:58:49]   ep  200 loss -1.1025 nll_f -0.587 nll_ms -0.520 val -1.1025 (162s)
+[22:59:28]   ep  250 loss -1.0978 nll_f -0.589 nll_ms -0.513 val -1.0978 (200s)
+[23:00:06]   ep  300 loss -1.0941 nll_f -0.585 nll_ms -0.513 val -1.0941 (239s)
+[23:00:45]   ep  350 loss -1.1000 nll_f -0.589 nll_ms -0.515 val -1.1000 (278s)
+[23:01:22]   ep  400 loss -1.0964 nll_f -0.583 nll_ms -0.518 val -1.0964 (315s)
+[23:01:22]     MSSA[no_disc] trained on 19 (+0 inner val) in 317s
+[23:01:23] [E0] {'exp': 'E0', 'seed': 0, 'sig_m_true': 0.1, 'beta_true': 0.4, 'beta_hat': 0.39537632342164947, 'gamma_true': 3.2, 'gamma_hat': 3.3261498688799382, 'phi_true': 0.6, 'phi_hat': 0.6323871909044896, 'sig_m_hat': 0.1017374967871881, 'sig_r_true': 0.08, 'sig_r_hat': 0.07111944689840012, 'u_spearman': 0.5804195804195805, 'u_rmse': 0.13275953071203975, 'Rperm_rmse': 0.047691446321144824, 'rev_rmse': 0.07610886587126205, 'rev_sd_true': 0.2982161450047752}
+[23:02:00]   ep   50 loss -0.0438 nll_f -0.048 nll_ms 0.001 val -0.0438 (37s)
+[23:02:36]   ep  100 loss -0.1212 nll_f -0.066 nll_ms -0.059 val -0.1212 (73s)
+[23:03:12]   ep  150 loss -0.1439 nll_f -0.078 nll_ms -0.070 val -0.1439 (109s)
+[23:03:43]   ep  200 loss -0.1626 nll_f -0.083 nll_ms -0.084 val -0.1626 (140s)
+[23:04:04]   ep  250 loss -0.1370 nll_f -0.082 nll_ms -0.058 val -0.1370 (161s)
+[23:04:16]     MSSA[no_disc] trained on 19 (+0 inner val) in 173s
+[23:04:16] [E0] {'exp': 'E0', 'seed': 0, 'sig_m_true': 0.2, 'beta_true': 0.4, 'beta_hat': 0.3961759226138225, 'gamma_true': 3.2, 'gamma_hat': 3.329593145955927, 'phi_true': 0.6, 'phi_hat': 0.632035993440565, 'sig_m_hat': 0.1868716791271907, 'sig_r_true': 0.08, 'sig_r_hat': 0.09109495752393622, 'u_spearman': 0.5244755244755246, 'u_rmse': 0.1368407683982433, 'Rperm_rmse': 0.058949713760061154, 'rev_rmse': 0.09172492172188748, 'rev_sd_true': 0.2982161450047752}
+[23:04:16] all done in 8.2 min; building report
+[23:04:16] report written: /home/zyl105/Zerojy/projects/rut-mssa-20261119/results/full_20261119/E0_s0/REPORT.md

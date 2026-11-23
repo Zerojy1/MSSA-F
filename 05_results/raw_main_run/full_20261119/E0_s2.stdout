@@ -1,0 +1,21 @@
+[22:59:04] run 20261119_225904_full -> /home/zyl105/Zerojy/projects/rut-mssa-20261119/results/full_20261119/E0_s2; torch=2.12.1+cu126
+[22:59:05] ===== E0 =====
+/home/zyl105/Zerojy/projects/rut-mssa-20261119/src/rut_mssa/model.py:206: UserWarning: Converting a tensor with requires_grad=True to a scalar may lead to unexpected behavior.
+Consider using tensor.detach() first. (Triggered internally at /pytorch/torch/csrc/autograd/generated/python_variable_methods.cpp:838.)
+  return loss, {'nll_f': float(nll_f), 'nll_ms': float(nll_ms)}
+[22:59:47]   ep   50 loss -0.7594 nll_f -0.439 nll_ms -0.324 val -0.7594 (40s)
+[23:00:27]   ep  100 loss -1.0075 nll_f -0.538 nll_ms -0.474 val -1.0075 (80s)
+[23:01:05]   ep  150 loss -1.0249 nll_f -0.547 nll_ms -0.483 val -1.0249 (118s)
+[23:01:44]   ep  200 loss -0.9992 nll_f -0.539 nll_ms -0.465 val -0.9992 (157s)
+[23:02:17]   ep  250 loss -1.0117 nll_f -0.554 nll_ms -0.463 val -1.0117 (190s)
+[23:02:32]     MSSA[no_disc] trained on 19 (+0 inner val) in 206s
+[23:02:32] [E0] {'exp': 'E0', 'seed': 2, 'sig_m_true': 0.1, 'beta_true': 0.4, 'beta_hat': 0.3959323627619006, 'gamma_true': 3.2, 'gamma_hat': 3.3150379940638626, 'phi_true': 0.6, 'phi_hat': 0.6208323518942382, 'sig_m_hat': 0.10337157278687381, 'sig_r_true': 0.08, 'sig_r_hat': 0.0764334676517081, 'u_spearman': 0.4895104895104896, 'u_rmse': 0.2095283795379872, 'Rperm_rmse': 0.048852301289027476, 'rev_rmse': 0.07304462994964517, 'rev_sd_true': 0.30052036142194216}
+[23:03:09]   ep   50 loss -0.0027 nll_f -0.026 nll_ms 0.020 val -0.0027 (37s)
+[23:03:46]   ep  100 loss -0.0783 nll_f -0.045 nll_ms -0.037 val -0.0783 (74s)
+[23:04:21]   ep  150 loss -0.0945 nll_f -0.056 nll_ms -0.043 val -0.0945 (109s)
+[23:04:56]   ep  200 loss -0.0983 nll_f -0.057 nll_ms -0.046 val -0.0983 (144s)
+[23:05:31]   ep  250 loss -0.0876 nll_f -0.061 nll_ms -0.032 val -0.0876 (179s)
+[23:05:46]     MSSA[no_disc] trained on 19 (+0 inner val) in 194s
+[23:05:46] [E0] {'exp': 'E0', 'seed': 2, 'sig_m_true': 0.2, 'beta_true': 0.4, 'beta_hat': 0.39756345980344465, 'gamma_true': 3.2, 'gamma_hat': 3.313163958538392, 'phi_true': 0.6, 'phi_hat': 0.6172562556930766, 'sig_m_hat': 0.18865797285729513, 'sig_r_true': 0.08, 'sig_r_hat': 0.0994569130218984, 'u_spearman': 0.6153846153846154, 'u_rmse': 0.20988775931627793, 'Rperm_rmse': 0.06391429707781049, 'rev_rmse': 0.09060694691772485, 'rev_sd_true': 0.30052036142194216}
+[23:05:46] all done in 6.7 min; building report
+[23:05:46] report written: /home/zyl105/Zerojy/projects/rut-mssa-20261119/results/full_20261119/E0_s2/REPORT.md

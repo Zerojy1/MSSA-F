@@ -1,0 +1,30 @@
+[22:20:59] run 20261119_222059_smoke_remaining -> results/smoke_remaining; torch=2.12.1+cu126
+[22:21:00] ===== E5 =====
+[22:21:06]     MSSA[full] trained on 17 (+2 inner val) in 7s
+[22:21:12]     MSSA[full] trained on 17 (+2 inner val) in 6s
+[22:21:18]     MSSA[full] trained on 17 (+2 inner val) in 6s
+[22:21:24]     MSSA[full] trained on 17 (+2 inner val) in 6s
+[22:21:30]     MSSA[full] trained on 17 (+2 inner val) in 6s
+[22:21:36]     MSSA[full] trained on 17 (+2 inner val) in 6s
+[22:21:42]     MSSA[full] trained on 17 (+2 inner val) in 6s
+[22:21:48]     MSSA[full] trained on 17 (+2 inner val) in 6s
+[22:21:53]     MSSA[full] trained on 17 (+2 inner val) in 6s
+[22:21:59]     MSSA[full] trained on 17 (+2 inner val) in 6s
+[22:22:05]     MSSA[full] trained on 17 (+2 inner val) in 6s
+[22:22:05] ===== E6_ablation =====
+[22:22:05] [E6] fold 0 seed 0 variant no_disc
+[22:22:10]     MSSA[no_disc] trained on 14 (+2 inner val) in 5s
+[22:22:11] [E6] fold 0 seed 0 variant no_rev
+[22:22:17]     MSSA[no_rev] trained on 14 (+2 inner val) in 5s
+[22:22:17] [E6] fold 0 seed 0 variant no_proj
+[22:22:23]     MSSA[no_proj] trained on 14 (+2 inner val) in 5s
+[22:22:24] [E6] fold 0 seed 0 variant no_defl
+[22:22:29]     MSSA[no_defl] trained on 14 (+2 inner val) in 6s
+[22:22:30] [E6] fold 0 seed 0 variant fixed_mat
+[22:22:36]     MSSA[fixed_mat] trained on 14 (+2 inner val) in 6s
+[22:22:37] [E6] fold 0 seed 0 variant neural_ssm
+[22:22:41]     MSSA[neural_ssm] trained on 14 (+2 inner val) in 4s
+[22:22:42] [E6] fold 0 seed 0 variant no_ms
+[22:22:47]     MSSA[no_ms] trained on 14 (+2 inner val) in 5s
+[22:22:48] all done in 1.8 min; building report
+[22:22:49] report written: results/smoke_remaining/REPORT.md

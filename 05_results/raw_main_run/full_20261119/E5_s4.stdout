@@ -1,0 +1,40 @@
+[22:22:53] run 20261119_222253_full -> /home/zyl105/Zerojy/projects/rut-mssa-20261119/results/full_20261119/E5_s4; torch=2.12.1+cu126
+[22:22:54] ===== E5 =====
+/home/zyl105/Zerojy/projects/rut-mssa-20261119/src/rut_mssa/model.py:206: UserWarning: Converting a tensor with requires_grad=True to a scalar may lead to unexpected behavior.
+Consider using tensor.detach() first. (Triggered internally at /pytorch/torch/csrc/autograd/generated/python_variable_methods.cpp:838.)
+  return loss, {'nll_f': float(nll_f), 'nll_ms': float(nll_ms)}
+[22:23:35]   ep   50 loss 1.1949 nll_f 0.395 nll_ms 0.780 val 0.7224 (39s)
+[22:24:14]   ep  100 loss 1.0056 nll_f 0.351 nll_ms 0.634 val 0.6477 (79s)
+[22:24:14]     MSSA[full] trained on 17 (+2 inner val) in 80s
+[22:24:54]   ep   50 loss 1.1886 nll_f 0.400 nll_ms 0.769 val 0.7231 (40s)
+[22:25:35]   ep  100 loss 1.0070 nll_f 0.351 nll_ms 0.636 val 0.6496 (80s)
+[22:25:35]     MSSA[full] trained on 17 (+2 inner val) in 80s
+[22:26:18]   ep   50 loss 1.2619 nll_f 0.406 nll_ms 0.835 val 0.7167 (43s)
+[22:27:02]   ep  100 loss 1.0080 nll_f 0.351 nll_ms 0.636 val 0.6259 (87s)
+[22:27:02]     MSSA[full] trained on 17 (+2 inner val) in 87s
+[22:27:48]   ep   50 loss 1.2317 nll_f 0.406 nll_ms 0.805 val 0.7258 (45s)
+[22:28:33]   ep  100 loss 1.0059 nll_f 0.351 nll_ms 0.634 val 0.6537 (91s)
+[22:28:33]     MSSA[full] trained on 17 (+2 inner val) in 91s
+[22:29:19]   ep   50 loss 1.1967 nll_f 0.402 nll_ms 0.774 val 0.7293 (46s)
+[22:30:04]   ep  100 loss 1.0134 nll_f 0.352 nll_ms 0.639 val 0.6478 (91s)
+[22:30:04]     MSSA[full] trained on 17 (+2 inner val) in 91s
+[22:30:48]   ep   50 loss 1.1886 nll_f 0.389 nll_ms 0.779 val 0.7275 (44s)
+[22:31:31]   ep  100 loss 0.9958 nll_f 0.349 nll_ms 0.628 val 0.6613 (87s)
+[22:31:31]     MSSA[full] trained on 17 (+2 inner val) in 87s
+[22:32:13]   ep   50 loss 1.2066 nll_f 0.394 nll_ms 0.790 val 0.7321 (42s)
+[22:32:55]   ep  100 loss 1.0062 nll_f 0.350 nll_ms 0.634 val 0.6536 (84s)
+[22:32:55]     MSSA[full] trained on 17 (+2 inner val) in 84s
+[22:33:39]   ep   50 loss 1.2254 nll_f 0.405 nll_ms 0.801 val 0.7282 (44s)
+[22:34:23]   ep  100 loss 1.0060 nll_f 0.351 nll_ms 0.635 val 0.6500 (87s)
+[22:34:23]     MSSA[full] trained on 17 (+2 inner val) in 87s
+[22:35:07]   ep   50 loss 1.1946 nll_f 0.395 nll_ms 0.780 val 0.7241 (44s)
+[22:35:53]   ep  100 loss 1.0054 nll_f 0.351 nll_ms 0.634 val 0.6497 (90s)
+[22:35:53]     MSSA[full] trained on 17 (+2 inner val) in 90s
+[22:36:39]   ep   50 loss 1.2661 nll_f 0.408 nll_ms 0.838 val 0.7168 (46s)
+[22:37:23]   ep  100 loss 1.0212 nll_f 0.354 nll_ms 0.646 val 0.6586 (90s)
+[22:37:23]     MSSA[full] trained on 17 (+2 inner val) in 90s
+[22:38:06]   ep   50 loss 1.1885 nll_f 0.392 nll_ms 0.777 val 0.7254 (43s)
+[22:38:48]   ep  100 loss 1.0106 nll_f 0.352 nll_ms 0.638 val 0.6555 (86s)
+[22:38:49]     MSSA[full] trained on 17 (+2 inner val) in 86s
+[22:38:49] all done in 15.9 min; building report
+[22:38:49] report written: /home/zyl105/Zerojy/projects/rut-mssa-20261119/results/full_20261119/E5_s4/REPORT.md

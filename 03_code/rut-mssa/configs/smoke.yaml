@@ -1,0 +1,13 @@
+# Quick end-to-end check (minutes). Same code paths as full.yaml, tiny budgets.
+base: full.yaml
+seeds: [0, 1]          # two seeds so that post-hoc ensembles / fusion are exercised
+train: {epochs: 20, val_every: 5, patience: 3, ms_origins: 6}
+baselines: {gbm_trees: 50, gbm_max_rows: 5000, jtg_nfev: 20, enkf_members: 30, seq_epochs: 2}
+experiments:
+  run: [E0, E1E2, E3, E5, E6_ablation]
+  fpt_samples: 50
+  hybrid: {crossfit_epochs: 20, pairs_per_structure: 60, trees: 60}
+  smoke_max_folds: 1
+  E0: {noise_levels: [0.10]}
+  E5: {hide_materials: false}
+  E6_ablation: {variants: [no_rate, no_rw]}

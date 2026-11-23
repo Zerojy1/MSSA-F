@@ -1,0 +1,15 @@
+model,setting,frac_increase,frac_decrease,mean_delta
+mssa:fixed_mat,load_x2,1.0,0.0,0.4353176264664246
+mssa:fixed_mat,temp_plus5,1.0,0.0,0.8896019583928346
+mssa:neural_ssm,load_x2,1.0,0.0,0.3613478627079781
+mssa:neural_ssm,temp_plus5,1.0,0.0,0.6070045128662195
+mssa:no_defl,load_x2,1.0,0.0,0.45966854803690166
+mssa:no_defl,temp_plus5,1.0,0.0,0.9896790519255017
+mssa:no_disc,load_x2,1.0,0.0,0.4246662601488652
+mssa:no_disc,temp_plus5,1.0,0.0,0.915175926059948
+mssa:no_ms,load_x2,1.0,0.0,0.4740391320386735
+mssa:no_ms,temp_plus5,1.0,0.0,0.8945483630330242
+mssa:no_proj,load_x2,1.0,0.0,0.543096871793735
+mssa:no_proj,temp_plus5,1.0,0.0,0.9602084182472865
+mssa:no_rev,load_x2,1.0,0.0,0.35217994509220474
+mssa:no_rev,temp_plus5,1.0,0.0,0.7907583796920188

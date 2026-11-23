@@ -1,0 +1,9 @@
+exp,folds,fold,seed,model,protocol,setting,frac_increase,frac_decrease,mean_delta
+E3,leave_class_out,0,0,mssa,counterfactual,temp_plus5,1.0,0.0,0.6112816224077421
+E3,leave_class_out,0,0,mssa,counterfactual,load_x2,1.0,0.0,0.459224985433569
+E3,leave_class_out,0,0,persistence,counterfactual,temp_plus5,0.0,0.0,0.0
+E3,leave_class_out,0,0,persistence,counterfactual,load_x2,0.0,0.0,0.0
+E3,leave_class_out,0,0,gbm_residual,counterfactual,temp_plus5,0.628428927680798,0.0,0.06124724384555198
+E3,leave_class_out,0,0,gbm_residual,counterfactual,load_x2,0.5461346633416458,0.4538653366583541,-0.02201215673860469
+E3,leave_class_out,0,0,jtg_enkf,counterfactual,temp_plus5,0.7880299251870324,0.2119700748129676,0.04579536027973893
+E3,leave_class_out,0,0,jtg_enkf,counterfactual,load_x2,0.49625935162094764,0.5037406483790524,0.03360403741422783

@@ -1,0 +1,13 @@
+exp,folds,fold,seed,model,protocol,setting,structure,PICP,MPIW,IS
+E6_ablation,manuscript,0,0,mssa:no_disc,aci,native,STR1,0.8518518518518519,0.9055614662623549,1.7083437285466048
+E6_ablation,manuscript,0,0,mssa:no_disc,aci,aci,STR1,0.9407407407407408,1.269586989772986,1.488773797164425
+E6_ablation,manuscript,0,0,mssa:no_disc,aci,native,STR8,0.6296296296296297,0.9078925316566002,5.5907571918026315
+E6_ablation,manuscript,0,0,mssa:no_disc,aci,aci,STR8,0.9851851851851852,2.3426385386278805,2.687103257357189
+E6_ablation,manuscript,0,0,mssa:no_disc,aci,native,STR19,0.30303030303030304,0.9238410663634564,7.844945686138579
+E6_ablation,manuscript,0,0,mssa:no_disc,aci,aci,STR19,0.9621212121212122,2.2722847321283717,2.6390277430391103
+E6_ablation,manuscript,0,0,mssa:neural_ssm,aci,native,STR1,0.3383458646616541,1.0104351288529059,9.39963569296975
+E6_ablation,manuscript,0,0,mssa:neural_ssm,aci,aci,STR1,0.9097744360902256,2.0212823276741445,2.5382825305287104
+E6_ablation,manuscript,0,0,mssa:neural_ssm,aci,native,STR8,0.21481481481481482,1.0172423730262707,11.82220945321304
+E6_ablation,manuscript,0,0,mssa:neural_ssm,aci,aci,STR8,0.9777777777777777,2.7992723482891173,3.334547737546962
+E6_ablation,manuscript,0,0,mssa:neural_ssm,aci,native,STR19,0.14,1.0381975357578888,32.60246214052391
+E6_ablation,manuscript,0,0,mssa:neural_ssm,aci,aci,STR19,0.91,3.537443323916493,4.265238335803537

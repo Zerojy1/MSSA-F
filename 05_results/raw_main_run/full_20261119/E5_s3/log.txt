@@ -1,0 +1,56 @@
+[22:22:53] run 20261119_222253_full -> /home/zyl105/Zerojy/projects/rut-mssa-20261119/results/full_20261119/E5_s3; torch=2.12.1+cu126
+[22:22:54] ===== E5 =====
+[22:23:34]   ep   50 loss 1.4438 nll_f 0.439 nll_ms 0.980 val 0.4117 (39s)
+[22:24:14]   ep  100 loss 1.0480 nll_f 0.366 nll_ms 0.657 val 0.4118 (78s)
+[22:24:54]   ep  150 loss 1.0250 nll_f 0.349 nll_ms 0.659 val 0.4293 (118s)
+[22:24:54]     MSSA[full] trained on 17 (+2 inner val) in 120s
+[22:25:34]   ep   50 loss 1.4073 nll_f 0.431 nll_ms 0.954 val 0.4097 (40s)
+[22:26:16]   ep  100 loss 1.0498 nll_f 0.369 nll_ms 0.658 val 0.4026 (81s)
+[22:26:58]   ep  150 loss 1.0325 nll_f 0.350 nll_ms 0.666 val 0.3993 (124s)
+[22:26:58]     MSSA[full] trained on 17 (+2 inner val) in 124s
+[22:27:42]   ep   50 loss 1.3896 nll_f 0.430 nll_ms 0.933 val 0.4119 (44s)
+[22:28:28]   ep  100 loss 1.0444 nll_f 0.368 nll_ms 0.654 val 0.4141 (89s)
+[22:29:14]   ep  150 loss 1.0335 nll_f 0.351 nll_ms 0.664 val 0.4073 (135s)
+[22:29:14]     MSSA[full] trained on 17 (+2 inner val) in 135s
+[22:29:58]   ep   50 loss 1.5233 nll_f 0.454 nll_ms 1.044 val 0.4202 (44s)
+[22:30:42]   ep  100 loss 1.0430 nll_f 0.362 nll_ms 0.656 val 0.4138 (88s)
+[22:31:24]   ep  150 loss 1.0386 nll_f 0.351 nll_ms 0.670 val 0.4166 (131s)
+[22:31:32]     MSSA[full] trained on 17 (+2 inner val) in 139s
+[22:32:14]   ep   50 loss 1.3976 nll_f 0.431 nll_ms 0.940 val 0.4098 (41s)
+[22:32:55]   ep  100 loss 1.0764 nll_f 0.366 nll_ms 0.684 val 0.4008 (82s)
+[22:33:38]   ep  150 loss 1.0450 nll_f 0.351 nll_ms 0.673 val 0.3995 (125s)
+[22:34:21]   ep  200 loss 1.0558 nll_f 0.357 nll_ms 0.683 val 0.4005 (168s)
+[22:34:38]     MSSA[full] trained on 17 (+2 inner val) in 186s
+[22:35:22]   ep   50 loss 1.4808 nll_f 0.446 nll_ms 1.014 val 0.4364 (44s)
+[22:36:07]   ep  100 loss 1.0319 nll_f 0.361 nll_ms 0.648 val 0.4435 (89s)
+[22:36:44]     MSSA[full] trained on 17 (+2 inner val) in 126s
+[22:37:27]   ep   50 loss 1.4289 nll_f 0.432 nll_ms 0.972 val 0.4217 (43s)
+[22:38:10]   ep  100 loss 1.0244 nll_f 0.359 nll_ms 0.641 val 0.4200 (86s)
+[22:38:51]   ep  150 loss 1.0253 nll_f 0.348 nll_ms 0.661 val 0.4158 (128s)
+[22:38:51]     MSSA[full] trained on 17 (+2 inner val) in 128s
+[22:39:31]   ep   50 loss 1.4068 nll_f 0.431 nll_ms 0.950 val 0.4097 (40s)
+[22:40:11]   ep  100 loss 1.0504 nll_f 0.362 nll_ms 0.665 val 0.4052 (80s)
+[22:40:52]   ep  150 loss 1.0318 nll_f 0.350 nll_ms 0.664 val 0.4036 (121s)
+[22:41:35]   ep  200 loss 1.0417 nll_f 0.347 nll_ms 0.681 val 0.4038 (163s)
+[22:42:18]   ep  250 loss 1.0233 nll_f 0.342 nll_ms 0.670 val 0.3988 (207s)
+[22:43:03]   ep  300 loss 0.9689 nll_f 0.341 nll_ms 0.618 val 0.4062 (252s)
+[22:43:21]     MSSA[full] trained on 17 (+2 inner val) in 270s
+[22:44:05]   ep   50 loss 1.4484 nll_f 0.440 nll_ms 0.984 val 0.4123 (44s)
+[22:44:49]   ep  100 loss 1.0442 nll_f 0.367 nll_ms 0.654 val 0.4077 (88s)
+[22:45:31]   ep  150 loss 1.0635 nll_f 0.360 nll_ms 0.687 val 0.4119 (130s)
+[22:45:31]     MSSA[full] trained on 17 (+2 inner val) in 130s
+[22:46:12]   ep   50 loss 1.4422 nll_f 0.437 nll_ms 0.979 val 0.4123 (41s)
+[22:46:53]   ep  100 loss 1.0389 nll_f 0.363 nll_ms 0.649 val 0.4006 (82s)
+[22:47:33]   ep  150 loss 1.0253 nll_f 0.348 nll_ms 0.659 val 0.4046 (122s)
+[22:48:15]   ep  200 loss 1.0080 nll_f 0.344 nll_ms 0.650 val 0.4005 (164s)
+[22:48:58]   ep  250 loss 1.0195 nll_f 0.342 nll_ms 0.664 val 0.3973 (207s)
+[22:49:34]     MSSA[full] trained on 17 (+2 inner val) in 243s
+[22:50:18]   ep   50 loss 1.4398 nll_f 0.437 nll_ms 0.979 val 0.4130 (44s)
+[22:51:00]   ep  100 loss 1.0509 nll_f 0.361 nll_ms 0.666 val 0.4018 (86s)
+[22:51:42]   ep  150 loss 1.0382 nll_f 0.351 nll_ms 0.668 val 0.4064 (128s)
+[22:52:23]   ep  200 loss 1.0017 nll_f 0.348 nll_ms 0.640 val 0.4015 (168s)
+[22:53:02]   ep  250 loss 1.0288 nll_f 0.344 nll_ms 0.674 val 0.3954 (208s)
+[22:53:42]   ep  300 loss 0.9745 nll_f 0.340 nll_ms 0.625 val 0.3952 (248s)
+[22:54:16]     MSSA[full] trained on 17 (+2 inner val) in 281s
+[22:54:16] all done in 31.4 min; building report
+[22:54:16] report written: /home/zyl105/Zerojy/projects/rut-mssa-20261119/results/full_20261119/E5_s3/REPORT.md

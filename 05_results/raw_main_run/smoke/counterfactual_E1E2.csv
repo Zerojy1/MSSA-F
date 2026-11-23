@@ -1,0 +1,15 @@
+exp,folds,fold,seed,model,protocol,setting,frac_increase,frac_decrease,mean_delta
+E1E2,manuscript,0,0,mssa,counterfactual,temp_plus5,1.0,0.0,0.647544693758729
+E1E2,manuscript,0,0,mssa,counterfactual,load_x2,1.0,0.0,0.5032886888819934
+E1E2,manuscript,0,0,persistence,counterfactual,temp_plus5,0.0,0.0,0.0
+E1E2,manuscript,0,0,persistence,counterfactual,load_x2,0.0,0.0,0.0
+E1E2,manuscript,0,0,gbm_residual,counterfactual,temp_plus5,0.6466165413533834,0.0,0.04807675499142262
+E1E2,manuscript,0,0,gbm_residual,counterfactual,load_x2,0.8295739348370927,0.14285714285714285,0.06609125041349191
+E1E2,manuscript,0,0,jtg_global,counterfactual,temp_plus5,1.0,0.0,2.525315592828636
+E1E2,manuscript,0,0,jtg_global,counterfactual,load_x2,1.0,0.0,1.4832311642155662
+E1E2,manuscript,0,0,jtg_enkf,counterfactual,temp_plus5,0.7192982456140351,0.2807017543859649,0.05000133034889039
+E1E2,manuscript,0,0,jtg_enkf,counterfactual,load_x2,0.5338345864661654,0.46365914786967416,0.029425013633881583
+E1E2,manuscript,0,0,lstm,counterfactual,temp_plus5,0.903448275862069,0.09655172413793103,0.05812906502992257
+E1E2,manuscript,0,0,lstm,counterfactual,load_x2,0.8367816091954023,0.1632183908045977,0.5644111886192327
+E1E2,manuscript,0,0,patchtst,counterfactual,temp_plus5,0.8068965517241379,0.19310344827586207,0.013784233592022424
+E1E2,manuscript,0,0,patchtst,counterfactual,load_x2,0.9126436781609195,0.08735632183908046,0.6349103345353713

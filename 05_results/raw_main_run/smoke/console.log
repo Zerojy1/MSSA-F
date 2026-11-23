@@ -1,0 +1,31 @@
+[22:18:11] run 20261119_221811_smoke -> results/smoke; torch=2.12.1+cu126
+[22:18:11] ===== E0 =====
+/home/zyl105/Zerojy/projects/rut-mssa-20261119/src/rut_mssa/model.py:206: UserWarning: Converting a tensor with requires_grad=True to a scalar may lead to unexpected behavior.
+Consider using tensor.detach() first. (Triggered internally at /pytorch/torch/csrc/autograd/generated/python_variable_methods.cpp:838.)
+  return loss, {'nll_f': float(nll_f), 'nll_ms': float(nll_ms)}
+[22:18:17]     MSSA[no_disc] trained on 19 (+0 inner val) in 6s
+[22:18:17] [E0] {'exp': 'E0', 'seed': 0, 'sig_m_true': 0.1, 'beta_true': 0.4, 'beta_hat': 0.4513604268921701, 'gamma_true': 3.2, 'gamma_hat': 3.080153032804155, 'phi_true': 0.6, 'phi_hat': 0.7095227505647119, 'sig_m_hat': 0.17804578735460472, 'sig_r_true': 0.08, 'sig_r_hat': 0.11359617778019096, 'u_spearman': 0.44055944055944063, 'u_rmse': 0.15019640864516035, 'Rperm_rmse': 0.16793136780416898, 'rev_rmse': 0.15460808784074143, 'rev_sd_true': 0.2982161450047752}
+[22:18:17] ===== E1E2 =====
+[22:18:17] [E1E2] fold 0 seed 0 model mssa test=['STR1', 'STR8', 'STR19']
+[22:18:23]     MSSA[full] trained on 14 (+2 inner val) in 6s
+[22:18:24] [E1E2] fold 0 seed 0 model persistence test=['STR1', 'STR8', 'STR19']
+[22:18:24] [E1E2] fold 0 seed 0 model gbm_residual test=['STR1', 'STR8', 'STR19']
+[22:18:25] [E1E2] fold 0 seed 0 model jtg_global test=['STR1', 'STR8', 'STR19']
+[22:18:25] [E1E2] fold 0 seed 0 model jtg_enkf test=['STR1', 'STR8', 'STR19']
+[22:18:27] [E1E2] fold 0 seed 0 model lstm test=['STR1', 'STR8', 'STR19']
+[22:18:30] [E1E2] fold 0 seed 0 model patchtst test=['STR1', 'STR8', 'STR19']
+[22:18:32] ===== E3 =====
+[22:18:32] [E3] fold 0 seed 0 model mssa test=['STR1', 'STR2', 'STR3']
+[22:18:37]     MSSA[full] trained on 14 (+2 inner val) in 6s
+[22:18:38] [E3] fold 0 seed 0 model persistence test=['STR1', 'STR2', 'STR3']
+[22:18:38] [E3] fold 0 seed 0 model gbm_residual test=['STR1', 'STR2', 'STR3']
+[22:18:39] [E3] fold 0 seed 0 model jtg_enkf test=['STR1', 'STR2', 'STR3']
+[22:18:40] ===== E5 =====
+[22:18:46]     MSSA[full] trained on 17 (+2 inner val) in 6s
+[22:18:46] ===== E6_ablation =====
+[22:18:46] [E6] fold 0 seed 0 variant no_disc
+[22:18:51]     MSSA[no_disc] trained on 14 (+2 inner val) in 5s
+[22:18:52] [E6] fold 0 seed 0 variant neural_ssm
+[22:18:56]     MSSA[neural_ssm] trained on 14 (+2 inner val) in 4s
+[22:18:57] all done in 0.8 min; building report
+[22:19:00] report written: results/smoke/REPORT.md

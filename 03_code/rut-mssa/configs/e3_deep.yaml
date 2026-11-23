@@ -1,0 +1,8 @@
+# Supplementary run: deep sequence baselines on unseen structure classes (leave-one-class-out, E3).
+# Only LSTM and PatchTST are trained; all other E3 results are reused from the main run via --merge.
+base: full.yaml
+experiments:
+  run: [E3]
+  E3:
+    models: [lstm, patchtst]
+  save_pred_models: []

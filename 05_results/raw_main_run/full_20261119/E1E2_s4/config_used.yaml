@@ -1,0 +1,124 @@
+data_dir: /home/zyl105/Zerojy/projects/rut-mssa-20261119/data
+out_root: results
+device: cpu
+seeds:
+- 4
+model:
+  use_deflection: true
+  fwd_load_kN: 50
+  sublayers:
+    first_max_mm: 40
+    first_sub_mm: 20
+    deep_sub_mm: 100
+  E20_slot:
+  - 10000
+  - 10000
+  - 9500
+  - 7000
+  - 13000
+  - 11500
+  - 11000
+  - 13500
+  - 11500
+  - 10500
+  - 11000
+  - 8000
+  T_bar_init: 12.0
+  damp_mm_init: 300.0
+  cE_init: 0.06
+  sig_m_init: 0.15
+  hidden: 32
+  g_max: 1.5
+train:
+  epochs: 400
+  patience: 8
+  val_every: 10
+  val_horizon: 6
+  n_inner_val: 2
+  lr_phys: 0.01
+  lr_nn: 0.002
+  lambda_ms: 1.0
+  ms_horizon: 12
+  ms_origins: 24
+  lambda_u: 0.5
+  lambda_cls: 0.5
+  lambda_toff: 0.05
+  lambda_g: 0.05
+  grad_clip: 5.0
+baselines:
+  gbm_trees: 400
+  gbm_max_rows: 80000
+  jtg_nfev: 200
+  enkf_members: 100
+  seq_window: 16
+  seq_horizon: 12
+  seq_epochs: 60
+  seq_train_k:
+  - 1
+  - 2
+  - 4
+experiments:
+  run:
+  - E1E2
+  protocols:
+    horizons:
+    - 1
+    - 3
+    - 6
+    - 12
+    sparse_k:
+    - 1
+    - 2
+    - 4
+    - 8
+    early_fracs:
+    - 0.2
+    - 0.4
+    - 0.6
+    thresholds:
+    - 8.0
+    - 10.0
+    counterfactual: true
+  fpt_mc: true
+  fpt_samples: 500
+  E0:
+    noise_levels:
+    - 0.1
+    - 0.2
+    truth:
+      beta: 0.4
+      gamma: 3.2
+      phi: 0.6
+      sig_r: 0.08
+      kappa_T: 0.3
+      q_rel: 0.2
+      mu_d0: 1.5
+      u_sd: 0.25
+      log_scale_shift: 0.0
+  E1E2:
+    models:
+    - mssa
+    - persistence
+    - gbm_residual
+    - jtg_global
+    - jtg_enkf
+    - lstm
+    - patchtst
+  E3:
+    models:
+    - mssa
+    - persistence
+    - gbm_residual
+    - jtg_enkf
+  E5:
+    hide_materials: true
+    n_inner_val: 2
+  E6_ablation:
+    variants:
+    - no_disc
+    - no_rev
+    - no_proj
+    - no_defl
+    - fixed_mat
+    - neural_ssm
+    - no_ms

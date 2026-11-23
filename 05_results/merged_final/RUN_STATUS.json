@@ -1,0 +1,42 @@
+{
+  "state": "completed",
+  "device": "cuda",
+  "models": [
+    "lstm",
+    "patchtst"
+  ],
+  "folds": 7,
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "structures": 19,
+  "model_fold_seed_combinations": 70,
+  "supplement_main_rows": 2850,
+  "merged_main_rows": 9405,
+  "original_raw_tables_checked": [
+    "E0_identifiability.csv",
+    "E5_H1_test.csv",
+    "E5_discrepancy.csv",
+    "E5_hidden_material.csv",
+    "E5_hidden_material_summary.csv",
+    "E5_params.csv",
+    "counterfactual_E1E2.csv",
+    "counterfactual_E3.csv",
+    "counterfactual_E6_ablation.csv",
+    "fpt_mc_E1E2.csv",
+    "fpt_mc_E3.csv",
+    "main_E1E2.csv",
+    "main_E3.csv",
+    "main_E6_ablation.csv",
+    "params_E1E2.csv",
+    "params_E3.csv",
+    "uq_aci_E1E2.csv",
+    "uq_aci_E3.csv",
+    "uq_aci_E6_ablation.csv"
+  ],
+  "original_npz_hashes_matched": 180
+}

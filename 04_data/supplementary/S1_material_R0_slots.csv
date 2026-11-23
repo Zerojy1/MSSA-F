@@ -1,0 +1,19 @@
+slot,layer_position,mixture,binder,R0_lab_60C_mm,source,mapping_status
+Surf_AC13_I_SBS,surface,AC13-I,SBS,1.54,Wu et al. 2022 Appl Sci 12:6805 Table 1,name-matched; verify
+Surf_AC13_II_SBS,surface,AC13-II,SBS,1.65,Wu et al. 2022 Table 1,name-matched; verify
+Surf_SMA13,surface,SMA13,SBS,1.82,Wu et al. 2022 Table 1,name-matched; verify
+Surf_PAC13,surface,PAC13,,,not reported,learn from data
+Mid_AC20_AH30,middle,AC20,AH30 (30#),1.70,Wu et al. 2022 Table 1,name-matched; verify
+Mid_AC20_SBS,middle,AC20,SBS,1.30,Wu et al. 2022 Table 1,name-matched; verify
+Mid_AC20_AH50,middle,AC20,AH50 (50#),2.67,Wu et al. 2022 Table 1,name-matched; verify
+Bot_AC25_AH30,bottom,AC25,AH30 (30#),1.96,Wu et al. 2022 Table 1,name-matched; verify
+Bot_AC25_AH50,bottom,AC25,AH50 (50#),2.12,Wu et al. 2022 Table 1,name-matched; verify
+Bot_AC25_AH70,bottom,AC25,AH70 (70#),2.82,Wu et al. 2022 Table 1,name-matched; verify
+Bot_AC25_Re_AH70,bottom,AC25 recycled,AH70,,not reported,learn from data
+Bot_AC10_SBS,bottom,AC10,SBS,2.40,Wu et al. 2022 Table 1,name-matched; verify
+Base_CBG_A,base,cement-bound granular A,,,not asphalt,not applicable
+Base_CBG_B,base,cement-bound granular B,,,not asphalt,not applicable
+Base_CS,base,CS,,,not asphalt,not applicable
+Base_CC,base,CC,,,not asphalt,not applicable
+Base_LCC,base,lean cement concrete,,,not asphalt,not applicable
+Base_GA,base,graded aggregate,,,not asphalt,not applicable

@@ -1,0 +1,6 @@
+base: smoke.yaml
+experiments:
+  run: [E5, E6_ablation]
+  E5: {hide_materials: true}
+  E6_ablation:
+    variants: [no_disc, no_rev, no_proj, no_defl, fixed_mat, neural_ssm, no_ms]

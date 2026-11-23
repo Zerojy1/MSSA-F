@@ -1,0 +1,7 @@
+dataset,content,rows,url_or_doi,use_in_plan,status
+RIOHTrack rutting 2016-2021,"year, loading date, cycle, cumulative ESAL, average temperature, rut depth STR1-19",147,https://www.scidb.cn/en/detail?dataSetId=2ead51fa587b491d990aaee5b4f3b3fc,main observation,already in your repo
+RIOHTrack structural deflection 2016-2021,"drop load, cumulative ESAL, surface & air temperature at test, center deflection D0, basin area STR1-19",870,https://doi.org/10.57760/sciencedb.10782,second observation channel; surface temperature to calibrate M2,to download
+RIOHTrack flatness (IRI) 2016-2021,"cumulative ESAL, average temperature, IRI STR1-19",147,https://www.scidb.cn/en/detail?dataSetId=fad5d628fb6944e1a7c61584da40d8d4,optional auxiliary indicator,to download
+RIOHTrack mechanical response 2016-2018,"continuous real-vehicle response, 3 semi-rigid sections",,https://www.scidb.cn/en/detail?dataSetId=6d28540ea4b342b3b16ccd0c0ab96ac2,validate computed p_i / layer response,to download
+Data descriptor paper,"Zhou X. et al. China Sci. Data 9(4) (2024) 300-322",,https://doi.org/10.11922/11-6035.csd.2023.0141.zh,cite + material/layer table,to download
+MnROAD,independent full-scale track,,MnDOT MnROAD data portal,external validation (E7),registration may be needed

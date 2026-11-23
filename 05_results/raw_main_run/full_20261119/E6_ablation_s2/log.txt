@@ -1,0 +1,253 @@
+[22:22:53] run 20261119_222253_full -> /home/zyl105/Zerojy/projects/rut-mssa-20261119/results/full_20261119/E6_ablation_s2; torch=2.12.1+cu126
+[22:22:54] ===== E6_ablation =====
+[22:22:54] [E6] fold 0 seed 2 variant no_disc
+[22:23:30]   ep   50 loss 1.1075 nll_f 0.370 nll_ms 0.717 val 0.5580 (35s)
+[22:24:06]   ep  100 loss 1.0169 nll_f 0.329 nll_ms 0.672 val 0.5158 (71s)
+[22:24:42]   ep  150 loss 0.9578 nll_f 0.319 nll_ms 0.623 val 0.5026 (107s)
+[22:25:18]   ep  200 loss 0.9386 nll_f 0.315 nll_ms 0.609 val 0.4939 (143s)
+[22:25:54]   ep  250 loss 0.9102 nll_f 0.312 nll_ms 0.583 val 0.4846 (179s)
+[22:26:33]   ep  300 loss 0.8598 nll_f 0.311 nll_ms 0.534 val 0.4956 (217s)
+[22:27:11]   ep  350 loss 0.9228 nll_f 0.310 nll_ms 0.598 val 0.4999 (255s)
+[22:27:48]   ep  400 loss 0.9013 nll_f 0.310 nll_ms 0.577 val 0.4882 (292s)
+[22:27:48]     MSSA[no_disc] trained on 14 (+2 inner val) in 294s
+[22:27:50] [E6] fold 0 seed 2 variant no_rev
+[22:28:30]   ep   50 loss 2.8236 nll_f 1.197 nll_ms 1.602 val 0.6095 (40s)
+[22:29:10]   ep  100 loss 1.6992 nll_f 0.708 nll_ms 0.973 val 0.5682 (80s)
+[22:29:50]   ep  150 loss 1.4998 nll_f 0.629 nll_ms 0.855 val 0.5757 (120s)
+[22:29:58]     MSSA[no_rev] trained on 14 (+2 inner val) in 128s
+[22:30:00] [E6] fold 0 seed 2 variant no_proj
+[22:30:39]   ep   50 loss 1.2291 nll_f 0.399 nll_ms 0.815 val 0.5504 (39s)
+[22:31:18]   ep  100 loss 1.0276 nll_f 0.329 nll_ms 0.687 val 0.5030 (77s)
+[22:31:55]   ep  150 loss 0.9533 nll_f 0.320 nll_ms 0.623 val 0.4924 (115s)
+[22:32:33]   ep  200 loss 0.9296 nll_f 0.314 nll_ms 0.607 val 0.4812 (153s)
+[22:32:41]     MSSA[no_proj] trained on 14 (+2 inner val) in 161s
+[22:32:43] [E6] fold 0 seed 2 variant no_defl
+[22:33:24]   ep   50 loss 1.1509 nll_f 0.382 nll_ms 0.752 val 0.5581 (41s)
+[22:34:05]   ep  100 loss 1.0087 nll_f 0.332 nll_ms 0.664 val 0.5042 (82s)
+[22:34:46]   ep  150 loss 0.9485 nll_f 0.318 nll_ms 0.620 val 0.4997 (123s)
+[22:35:29]   ep  200 loss 0.9293 nll_f 0.309 nll_ms 0.610 val 0.5060 (166s)
+[22:36:13]   ep  250 loss 0.8904 nll_f 0.307 nll_ms 0.574 val 0.4852 (210s)
+[22:36:55]   ep  300 loss 0.8450 nll_f 0.309 nll_ms 0.527 val 0.4765 (252s)
+[22:37:34]   ep  350 loss 0.8937 nll_f 0.304 nll_ms 0.579 val 0.4696 (291s)
+[22:38:12]   ep  400 loss 0.8715 nll_f 0.304 nll_ms 0.557 val 0.4816 (330s)
+[22:38:13]     MSSA[no_defl] trained on 14 (+2 inner val) in 330s
+[22:38:15] [E6] fold 0 seed 2 variant fixed_mat
+[22:38:54]   ep   50 loss 1.1349 nll_f 0.382 nll_ms 0.742 val 0.5795 (39s)
+[22:39:32]   ep  100 loss 0.9984 nll_f 0.329 nll_ms 0.661 val 0.4979 (78s)
+[22:40:11]   ep  150 loss 0.9430 nll_f 0.316 nll_ms 0.618 val 0.4983 (116s)
+[22:40:50]   ep  200 loss 0.9218 nll_f 0.310 nll_ms 0.603 val 0.4952 (155s)
+[22:41:31]   ep  250 loss 0.8851 nll_f 0.308 nll_ms 0.569 val 0.4852 (196s)
+[22:42:13]   ep  300 loss 0.8449 nll_f 0.309 nll_ms 0.528 val 0.4771 (238s)
+[22:42:56]   ep  350 loss 0.8946 nll_f 0.305 nll_ms 0.581 val 0.4775 (281s)
+[22:43:38]   ep  400 loss 0.8801 nll_f 0.306 nll_ms 0.566 val 0.4775 (323s)
+[22:43:38]     MSSA[fixed_mat] trained on 14 (+2 inner val) in 323s
+[22:43:40] [E6] fold 0 seed 2 variant neural_ssm
+[22:44:10]   ep   50 loss 2.1095 nll_f 1.006 nll_ms 1.091 val 0.6271 (30s)
+[22:44:39]   ep  100 loss 1.3462 nll_f 0.455 nll_ms 0.876 val 0.5635 (59s)
+[22:45:08]   ep  150 loss 1.1779 nll_f 0.402 nll_ms 0.764 val 0.5404 (88s)
+[22:45:36]   ep  200 loss 1.1256 nll_f 0.366 nll_ms 0.751 val 0.5235 (116s)
+[22:46:03]   ep  250 loss 1.0745 nll_f 0.349 nll_ms 0.719 val 0.5164 (143s)
+[22:46:31]   ep  300 loss 1.0069 nll_f 0.344 nll_ms 0.657 val 0.5140 (171s)
+[22:46:59]   ep  350 loss 1.0217 nll_f 0.345 nll_ms 0.674 val 0.5118 (199s)
+[22:47:27]   ep  400 loss 1.0388 nll_f 0.345 nll_ms 0.691 val 0.5164 (227s)
+[22:47:27]     MSSA[neural_ssm] trained on 14 (+2 inner val) in 227s
+[22:47:29] [E6] fold 0 seed 2 variant no_ms
+[22:48:04]   ep   50 loss 0.4177 nll_f 0.406 nll_ms 0.000 val 0.5655 (35s)
+[22:48:40]   ep  100 loss 0.3360 nll_f 0.330 nll_ms 0.000 val 0.5152 (71s)
+[22:49:19]   ep  150 loss 0.3194 nll_f 0.316 nll_ms 0.000 val 0.5026 (110s)
+[22:49:57]   ep  200 loss 0.3139 nll_f 0.311 nll_ms 0.000 val 0.5061 (148s)
+[22:50:29]     MSSA[no_ms] trained on 14 (+2 inner val) in 180s
+[22:50:31] [E6] fold 1 seed 2 variant no_disc
+[22:51:11]   ep   50 loss 1.2856 nll_f 0.409 nll_ms 0.848 val 0.6052 (40s)
+[22:51:50]   ep  100 loss 1.1012 nll_f 0.352 nll_ms 0.729 val 0.5749 (79s)
+[22:52:27]   ep  150 loss 1.0695 nll_f 0.339 nll_ms 0.712 val 0.5477 (116s)
+[22:53:05]   ep  200 loss 0.9619 nll_f 0.332 nll_ms 0.612 val 0.5363 (154s)
+[22:53:43]   ep  250 loss 0.9831 nll_f 0.327 nll_ms 0.640 val 0.5356 (192s)
+[22:54:20]   ep  300 loss 0.9011 nll_f 0.326 nll_ms 0.559 val 0.5317 (229s)
+[22:54:51]   ep  350 loss 0.9850 nll_f 0.325 nll_ms 0.644 val 0.5251 (259s)
+[22:55:29]   ep  400 loss 0.9701 nll_f 0.324 nll_ms 0.630 val 0.5268 (297s)
+[22:55:29]     MSSA[no_disc] trained on 14 (+2 inner val) in 297s
+[22:55:31] [E6] fold 1 seed 2 variant no_rev
+[22:56:05]   ep   50 loss 2.6691 nll_f 1.147 nll_ms 1.493 val 0.5984 (34s)
+[22:56:44]   ep  100 loss 1.6586 nll_f 0.721 nll_ms 0.916 val 0.5788 (74s)
+[22:57:24]   ep  150 loss 1.5324 nll_f 0.636 nll_ms 0.877 val 0.6324 (113s)
+[22:57:47]     MSSA[no_rev] trained on 14 (+2 inner val) in 136s
+[22:57:50] [E6] fold 1 seed 2 variant no_proj
+[22:58:30]   ep   50 loss 1.2397 nll_f 0.393 nll_ms 0.826 val 0.5990 (41s)
+[22:59:07]   ep  100 loss 1.1297 nll_f 0.352 nll_ms 0.762 val 0.6049 (78s)
+[22:59:44]   ep  150 loss 1.0589 nll_f 0.339 nll_ms 0.709 val 0.5381 (114s)
+[22:59:44]     MSSA[no_proj] trained on 14 (+2 inner val) in 114s
+[22:59:46] [E6] fold 1 seed 2 variant no_defl
+[23:00:28]   ep   50 loss 1.2844 nll_f 0.413 nll_ms 0.848 val 0.6025 (41s)
+[23:01:06]   ep  100 loss 1.0987 nll_f 0.354 nll_ms 0.729 val 0.5822 (79s)
+[23:01:44]   ep  150 loss 1.0474 nll_f 0.338 nll_ms 0.695 val 0.5742 (118s)
+[23:02:22]   ep  200 loss 0.9523 nll_f 0.332 nll_ms 0.609 val 0.5644 (156s)
+[23:02:59]   ep  250 loss 0.9817 nll_f 0.324 nll_ms 0.647 val 0.5670 (193s)
+[23:03:36]   ep  300 loss 0.8709 nll_f 0.321 nll_ms 0.538 val 0.5661 (230s)
+[23:04:07]   ep  350 loss 0.9506 nll_f 0.322 nll_ms 0.616 val 0.5308 (260s)
+[23:04:27]   ep  400 loss 0.9264 nll_f 0.321 nll_ms 0.594 val 0.5194 (281s)
+[23:04:27]     MSSA[no_defl] trained on 14 (+2 inner val) in 281s
+[23:04:29] [E6] fold 1 seed 2 variant fixed_mat
+[23:04:49]   ep   50 loss 1.2701 nll_f 0.412 nll_ms 0.847 val 0.6126 (21s)
+[23:05:10]   ep  100 loss 1.0904 nll_f 0.352 nll_ms 0.730 val 0.5818 (42s)
+[23:05:31]   ep  150 loss 1.0564 nll_f 0.340 nll_ms 0.708 val 0.5629 (63s)
+[23:05:52]   ep  200 loss 0.9444 nll_f 0.333 nll_ms 0.604 val 0.5572 (84s)
+[23:06:13]   ep  250 loss 0.9547 nll_f 0.326 nll_ms 0.621 val 0.5422 (104s)
+[23:06:33]   ep  300 loss 0.8892 nll_f 0.322 nll_ms 0.561 val 0.5574 (124s)
+[23:06:52]   ep  350 loss 0.9523 nll_f 0.322 nll_ms 0.624 val 0.5454 (143s)
+[23:06:56]     MSSA[fixed_mat] trained on 14 (+2 inner val) in 147s
+[23:06:57] [E6] fold 1 seed 2 variant neural_ssm
+[23:07:12]   ep   50 loss 2.2055 nll_f 0.943 nll_ms 1.248 val 0.6990 (15s)
+[23:07:26]   ep  100 loss 1.4005 nll_f 0.523 nll_ms 0.858 val 0.6307 (29s)
+[23:07:41]   ep  150 loss 1.2600 nll_f 0.440 nll_ms 0.806 val 0.6039 (44s)
+[23:07:56]   ep  200 loss 1.1628 nll_f 0.393 nll_ms 0.758 val 0.5816 (59s)
+[23:08:11]   ep  250 loss 1.1375 nll_f 0.370 nll_ms 0.758 val 0.5670 (73s)
+[23:08:25]   ep  300 loss 1.0320 nll_f 0.360 nll_ms 0.663 val 0.5597 (88s)
+[23:08:40]   ep  350 loss 1.0734 nll_f 0.355 nll_ms 0.711 val 0.5538 (103s)
+[23:08:55]   ep  400 loss 1.0719 nll_f 0.351 nll_ms 0.717 val 0.5559 (117s)
+[23:08:55]     MSSA[neural_ssm] trained on 14 (+2 inner val) in 117s
+[23:08:55] [E6] fold 1 seed 2 variant no_ms
+[23:09:13]   ep   50 loss 0.4508 nll_f 0.437 nll_ms 0.000 val 0.6203 (17s)
+[23:09:30]   ep  100 loss 0.3616 nll_f 0.356 nll_ms 0.000 val 0.5919 (35s)
+[23:09:48]   ep  150 loss 0.3381 nll_f 0.334 nll_ms 0.000 val 0.6140 (52s)
+[23:10:05]   ep  200 loss 0.3294 nll_f 0.326 nll_ms 0.000 val 0.5760 (69s)
+[23:10:18]     MSSA[no_ms] trained on 14 (+2 inner val) in 83s
+[23:10:19] [E6] fold 2 seed 2 variant no_disc
+[23:10:36]   ep   50 loss 1.3204 nll_f 0.433 nll_ms 0.854 val 0.4448 (17s)
+[23:10:53]   ep  100 loss 1.1478 nll_f 0.372 nll_ms 0.739 val 0.4247 (34s)
+[23:11:10]   ep  150 loss 1.1091 nll_f 0.361 nll_ms 0.716 val 0.4227 (51s)
+[23:11:27]   ep  200 loss 1.0102 nll_f 0.354 nll_ms 0.627 val 0.4228 (68s)
+[23:11:44]   ep  250 loss 1.0535 nll_f 0.350 nll_ms 0.676 val 0.4215 (85s)
+[23:11:51]     MSSA[no_disc] trained on 14 (+2 inner val) in 92s
+[23:11:52] [E6] fold 2 seed 2 variant no_rev
+[23:12:09]   ep   50 loss 2.6492 nll_f 1.116 nll_ms 1.503 val 0.5949 (17s)
+[23:12:26]   ep  100 loss 1.7540 nll_f 0.709 nll_ms 1.008 val 0.5618 (34s)
+[23:12:43]   ep  150 loss 1.4964 nll_f 0.622 nll_ms 0.846 val 0.5522 (51s)
+[23:13:00]   ep  200 loss 1.9353 nll_f 0.918 nll_ms 0.992 val 0.5488 (68s)
+[23:13:16]   ep  250 loss 1.4114 nll_f 0.608 nll_ms 0.783 val 0.5490 (85s)
+[23:13:33]   ep  300 loss 1.3187 nll_f 0.605 nll_ms 0.694 val 0.5501 (101s)
+[23:13:45]     MSSA[no_rev] trained on 14 (+2 inner val) in 114s
+[23:13:46] [E6] fold 2 seed 2 variant no_proj
+[23:14:03]   ep   50 loss 1.3068 nll_f 0.435 nll_ms 0.851 val 0.4374 (16s)
+[23:14:19]   ep  100 loss 1.1488 nll_f 0.371 nll_ms 0.753 val 0.4185 (33s)
+[23:14:35]   ep  150 loss 1.1054 nll_f 0.364 nll_ms 0.719 val 0.4137 (49s)
+[23:14:51]   ep  200 loss 0.9645 nll_f 0.350 nll_ms 0.594 val 0.4057 (65s)
+[23:15:08]   ep  250 loss 1.0131 nll_f 0.348 nll_ms 0.646 val 0.4045 (81s)
+[23:15:14]     MSSA[no_proj] trained on 14 (+2 inner val) in 88s
+[23:15:15] [E6] fold 2 seed 2 variant no_defl
+[23:15:32]   ep   50 loss 1.3236 nll_f 0.435 nll_ms 0.860 val 0.4437 (17s)
+[23:15:49]   ep  100 loss 1.1269 nll_f 0.371 nll_ms 0.729 val 0.4296 (34s)
+[23:16:07]   ep  150 loss 1.0944 nll_f 0.359 nll_ms 0.714 val 0.4227 (51s)
+[23:16:24]   ep  200 loss 1.0199 nll_f 0.353 nll_ms 0.649 val 0.4188 (68s)
+[23:16:41]   ep  250 loss 1.0249 nll_f 0.349 nll_ms 0.659 val 0.4181 (86s)
+[23:16:58]   ep  300 loss 0.9350 nll_f 0.346 nll_ms 0.571 val 0.4219 (103s)
+[23:17:12]     MSSA[no_defl] trained on 14 (+2 inner val) in 116s
+[23:17:13] [E6] fold 2 seed 2 variant fixed_mat
+[23:17:30]   ep   50 loss 1.3231 nll_f 0.437 nll_ms 0.872 val 0.4486 (17s)
+[23:17:47]   ep  100 loss 1.1266 nll_f 0.372 nll_ms 0.741 val 0.4235 (34s)
+[23:18:04]   ep  150 loss 1.0583 nll_f 0.358 nll_ms 0.688 val 0.4203 (51s)
+[23:18:21]   ep  200 loss 0.9561 nll_f 0.355 nll_ms 0.589 val 0.4241 (68s)
+[23:18:38]   ep  250 loss 1.0020 nll_f 0.346 nll_ms 0.645 val 0.4172 (85s)
+[23:18:55]   ep  300 loss 0.9142 nll_f 0.345 nll_ms 0.559 val 0.4216 (103s)
+[23:19:06]     MSSA[fixed_mat] trained on 14 (+2 inner val) in 113s
+[23:19:07] [E6] fold 2 seed 2 variant neural_ssm
+[23:19:20]   ep   50 loss 2.3085 nll_f 1.037 nll_ms 1.259 val 0.6506 (13s)
+[23:19:33]   ep  100 loss 1.3735 nll_f 0.497 nll_ms 0.857 val 0.5327 (26s)
+[23:19:46]   ep  150 loss 1.2988 nll_f 0.448 nll_ms 0.836 val 0.4989 (39s)
+[23:19:59]   ep  200 loss 1.2058 nll_f 0.408 nll_ms 0.786 val 0.4781 (52s)
+[23:20:12]   ep  250 loss 1.2151 nll_f 0.392 nll_ms 0.813 val 0.4640 (65s)
+[23:20:25]   ep  300 loss 1.1190 nll_f 0.381 nll_ms 0.729 val 0.4535 (78s)
+[23:20:38]   ep  350 loss 1.1619 nll_f 0.378 nll_ms 0.776 val 0.4492 (91s)
+[23:20:51]   ep  400 loss 1.1191 nll_f 0.377 nll_ms 0.736 val 0.4447 (104s)
+[23:20:51]     MSSA[neural_ssm] trained on 14 (+2 inner val) in 104s
+[23:20:52] [E6] fold 2 seed 2 variant no_ms
+[23:21:07]   ep   50 loss 0.4772 nll_f 0.459 nll_ms 0.000 val 0.4528 (15s)
+[23:21:22]   ep  100 loss 0.3831 nll_f 0.373 nll_ms 0.000 val 0.4257 (31s)
+[23:21:37]   ep  150 loss 0.3575 nll_f 0.351 nll_ms 0.000 val 0.4326 (46s)
+[23:21:50]     MSSA[no_ms] trained on 14 (+2 inner val) in 58s
+[23:21:51] [E6] fold 3 seed 2 variant no_disc
+[23:22:06]   ep   50 loss 1.2303 nll_f 0.400 nll_ms 0.792 val 0.4351 (15s)
+[23:22:22]   ep  100 loss 1.0685 nll_f 0.348 nll_ms 0.672 val 0.4007 (31s)
+[23:22:37]   ep  150 loss 1.0379 nll_f 0.338 nll_ms 0.652 val 0.3995 (46s)
+[23:22:53]   ep  200 loss 0.9785 nll_f 0.332 nll_ms 0.601 val 0.3981 (62s)
+[23:23:08]   ep  250 loss 0.9723 nll_f 0.329 nll_ms 0.600 val 0.3993 (77s)
+[23:23:22]   ep  300 loss 0.9343 nll_f 0.329 nll_ms 0.563 val 0.3971 (92s)
+[23:23:25]     MSSA[no_disc] trained on 14 (+2 inner val) in 95s
+[23:23:26] [E6] fold 3 seed 2 variant no_rev
+[23:23:41]   ep   50 loss 2.8206 nll_f 1.176 nll_ms 1.609 val 0.4927 (15s)
+[23:23:55]   ep  100 loss 1.6579 nll_f 0.695 nll_ms 0.923 val 0.4686 (29s)
+[23:24:10]   ep  150 loss 1.5122 nll_f 0.627 nll_ms 0.852 val 0.4675 (44s)
+[23:24:25]   ep  200 loss 1.4024 nll_f 0.624 nll_ms 0.753 val 0.4651 (59s)
+[23:24:28]     MSSA[no_rev] trained on 14 (+2 inner val) in 62s
+[23:24:29] [E6] fold 3 seed 2 variant no_proj
+[23:24:43]   ep   50 loss 1.2398 nll_f 0.393 nll_ms 0.822 val 0.4256 (15s)
+[23:24:58]   ep  100 loss 1.0741 nll_f 0.347 nll_ms 0.698 val 0.4181 (30s)
+[23:25:10]     MSSA[no_proj] trained on 14 (+2 inner val) in 42s
+[23:25:11] [E6] fold 3 seed 2 variant no_defl
+[23:25:27]   ep   50 loss 1.2394 nll_f 0.404 nll_ms 0.805 val 0.4299 (16s)
+[23:25:43]   ep  100 loss 1.0531 nll_f 0.347 nll_ms 0.672 val 0.4214 (31s)
+[23:25:58]   ep  150 loss 1.0136 nll_f 0.338 nll_ms 0.647 val 0.4345 (47s)
+[23:25:58]     MSSA[no_defl] trained on 14 (+2 inner val) in 47s
+[23:25:59] [E6] fold 3 seed 2 variant fixed_mat
+[23:26:15]   ep   50 loss 1.2533 nll_f 0.406 nll_ms 0.831 val 0.4484 (16s)
+[23:26:31]   ep  100 loss 1.0371 nll_f 0.347 nll_ms 0.673 val 0.4275 (31s)
+[23:26:46]   ep  150 loss 0.9927 nll_f 0.338 nll_ms 0.638 val 0.4654 (47s)
+[23:26:46]     MSSA[fixed_mat] trained on 14 (+2 inner val) in 47s
+[23:26:47] [E6] fold 3 seed 2 variant neural_ssm
+[23:26:59]   ep   50 loss 1.9732 nll_f 0.696 nll_ms 1.264 val 0.6148 (12s)
+[23:27:11]   ep  100 loss 1.3359 nll_f 0.470 nll_ms 0.845 val 0.5477 (23s)
+[23:27:23]   ep  150 loss 1.2182 nll_f 0.417 nll_ms 0.785 val 0.5246 (35s)
+[23:27:34]   ep  200 loss 1.1640 nll_f 0.384 nll_ms 0.767 val 0.5041 (47s)
+[23:27:46]   ep  250 loss 1.1432 nll_f 0.367 nll_ms 0.765 val 0.4919 (59s)
+[23:27:58]   ep  300 loss 1.0416 nll_f 0.361 nll_ms 0.672 val 0.4843 (70s)
+[23:28:09]   ep  350 loss 1.0974 nll_f 0.358 nll_ms 0.731 val 0.4767 (82s)
+[23:28:21]   ep  400 loss 1.0921 nll_f 0.355 nll_ms 0.731 val 0.4739 (94s)
+[23:28:21]     MSSA[neural_ssm] trained on 14 (+2 inner val) in 94s
+[23:28:22] [E6] fold 3 seed 2 variant no_ms
+[23:28:36]   ep   50 loss 0.4499 nll_f 0.426 nll_ms 0.000 val 0.4440 (14s)
+[23:28:50]   ep  100 loss 0.3670 nll_f 0.354 nll_ms 0.000 val 0.4255 (28s)
+[23:29:04]   ep  150 loss 0.3514 nll_f 0.343 nll_ms 0.000 val 0.4045 (42s)
+[23:29:18]   ep  200 loss 0.3371 nll_f 0.330 nll_ms 0.000 val 0.4023 (56s)
+[23:29:32]   ep  250 loss 0.3341 nll_f 0.328 nll_ms 0.000 val 0.4023 (70s)
+[23:29:47]   ep  300 loss 0.3325 nll_f 0.327 nll_ms 0.000 val 0.4005 (85s)
+[23:30:01]   ep  350 loss 0.3314 nll_f 0.326 nll_ms 0.000 val 0.3995 (99s)
+[23:30:15]   ep  400 loss 0.3304 nll_f 0.325 nll_ms 0.000 val 0.3988 (113s)
+[23:30:15]     MSSA[no_ms] trained on 14 (+2 inner val) in 113s
+[23:30:16] [E6] fold 4 seed 2 variant no_disc
+[23:30:31]   ep   50 loss 1.2927 nll_f 0.418 nll_ms 0.840 val 0.5732 (15s)
+[23:30:46]   ep  100 loss 1.1256 nll_f 0.359 nll_ms 0.733 val 0.5690 (30s)
+[23:31:01]   ep  150 loss 1.0737 nll_f 0.348 nll_ms 0.697 val 0.5574 (45s)
+[23:31:16]   ep  200 loss 0.9925 nll_f 0.342 nll_ms 0.624 val 0.5642 (60s)
+[23:31:28]     MSSA[no_disc] trained on 14 (+2 inner val) in 72s
+[23:31:29] [E6] fold 4 seed 2 variant no_rev
+[23:31:44]   ep   50 loss 2.5912 nll_f 1.093 nll_ms 1.463 val 0.7196 (15s)
+[23:31:59]   ep  100 loss 1.7762 nll_f 0.721 nll_ms 1.019 val 0.6883 (30s)
+[23:32:02]     MSSA[no_rev] trained on 14 (+2 inner val) in 33s
+[23:32:03] [E6] fold 4 seed 2 variant no_proj
+[23:32:17]   ep   50 loss 1.2672 nll_f 0.406 nll_ms 0.835 val 0.5235 (15s)
+[23:32:32]   ep  100 loss 1.0919 nll_f 0.353 nll_ms 0.715 val 0.5397 (29s)
+[23:32:35]     MSSA[no_proj] trained on 14 (+2 inner val) in 32s
+[23:32:35] [E6] fold 4 seed 2 variant no_defl
+[23:32:51]   ep   50 loss 1.3217 nll_f 0.428 nll_ms 0.864 val 0.5822 (15s)
+[23:33:06]   ep  100 loss 1.0954 nll_f 0.362 nll_ms 0.707 val 0.5984 (30s)
+[23:33:06]     MSSA[no_defl] trained on 14 (+2 inner val) in 30s
+[23:33:07] [E6] fold 4 seed 2 variant fixed_mat
+[23:33:22]   ep   50 loss 1.3785 nll_f 0.448 nll_ms 0.918 val 0.6253 (15s)
+[23:33:36]   ep  100 loss 1.1032 nll_f 0.360 nll_ms 0.731 val 0.6604 (30s)
+[23:33:39]     MSSA[fixed_mat] trained on 14 (+2 inner val) in 33s
+[23:33:40] [E6] fold 4 seed 2 variant neural_ssm
+[23:33:52]   ep   50 loss 2.0859 nll_f 0.835 nll_ms 1.239 val 0.5575 (11s)
+[23:34:03]   ep  100 loss 1.3464 nll_f 0.477 nll_ms 0.853 val 0.4958 (23s)
+[23:34:14]   ep  150 loss 1.2504 nll_f 0.432 nll_ms 0.804 val 0.4749 (34s)
+[23:34:26]   ep  200 loss 1.1819 nll_f 0.391 nll_ms 0.779 val 0.4586 (45s)
+[23:34:37]   ep  250 loss 1.1495 nll_f 0.375 nll_ms 0.765 val 0.4525 (57s)
+[23:34:48]   ep  300 loss 1.1062 nll_f 0.366 nll_ms 0.732 val 0.4512 (68s)
+[23:34:59]   ep  350 loss 1.1295 nll_f 0.364 nll_ms 0.759 val 0.4495 (79s)
+[23:35:11]   ep  400 loss 1.1216 nll_f 0.363 nll_ms 0.752 val 0.4514 (90s)
+[23:35:11]     MSSA[neural_ssm] trained on 14 (+2 inner val) in 90s
+[23:35:11] [E6] fold 4 seed 2 variant no_ms
+[23:35:25]   ep   50 loss 0.4633 nll_f 0.445 nll_ms 0.000 val 0.6229 (13s)
+[23:35:38]   ep  100 loss 0.3744 nll_f 0.365 nll_ms 0.000 val 0.6239 (27s)
+[23:35:38]     MSSA[no_ms] trained on 14 (+2 inner val) in 27s
+[23:35:39] all done in 72.7 min; building report
+[23:35:40] report written: /home/zyl105/Zerojy/projects/rut-mssa-20261119/results/full_20261119/E6_ablation_s2/REPORT.md

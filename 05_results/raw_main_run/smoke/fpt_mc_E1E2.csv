@@ -1,0 +1,17 @@
+exp,folds,fold,seed,model,structure,frac,threshold,obs_crossing_Mload,p_cross_by_end,median_Mload,q5,q95,obs_in_90pct,median_abs_err_Mload
+E1E2,manuscript,0,0,mssa,STR1,0.2,8.0,,0.0,,,,,
+E1E2,manuscript,0,0,mssa,STR1,0.2,10.0,,0.0,,,,,
+E1E2,manuscript,0,0,mssa,STR8,0.2,8.0,17.06,1.0,32.12,30.4,33.83,False,15.059999999999999
+E1E2,manuscript,0,0,mssa,STR8,0.2,10.0,36.58,0.0,,,,,
+E1E2,manuscript,0,0,mssa,STR19,0.2,8.0,,1.0,23.425,18.47,29.87,,
+E1E2,manuscript,0,0,mssa,STR19,0.2,10.0,,1.0,49.99,48.05,51.15,,
+E1E2,manuscript,0,0,mssa,STR1,0.4,8.0,,0.0,,,,,
+E1E2,manuscript,0,0,mssa,STR1,0.4,10.0,,0.0,,,,,
+E1E2,manuscript,0,0,mssa,STR8,0.4,10.0,36.58,0.06,,,,,
+E1E2,manuscript,0,0,mssa,STR19,0.4,8.0,,1.0,32.12,30.796,33.44,,
+E1E2,manuscript,0,0,mssa,STR19,0.4,10.0,,0.52,53.315,51.51,55.56,,
+E1E2,manuscript,0,0,mssa,STR1,0.6,8.0,,0.0,,,,,
+E1E2,manuscript,0,0,mssa,STR1,0.6,10.0,,0.0,,,,,
+E1E2,manuscript,0,0,mssa,STR8,0.6,10.0,36.58,0.94,51.51,49.99,54.69,False,14.93
+E1E2,manuscript,0,0,mssa,STR19,0.6,8.0,,1.0,49.6,48.43,50.589999999999996,,
+E1E2,manuscript,0,0,mssa,STR19,0.6,10.0,,0.0,,,,,

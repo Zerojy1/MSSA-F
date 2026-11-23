@@ -1,0 +1,37 @@
+{
+  "E1E2": {
+    "structures": 15,
+    "survey_points": 2179,
+    "max_abs_delta": {
+      "N": 0.0,
+      "y": 0.0,
+      "r": 0.0,
+      "d0": 0.0,
+      "Rperm": 0.0,
+      "sublayer_sum": 3.552713678800501e-15
+    }
+  },
+  "E3": {
+    "structures": 19,
+    "survey_points": 2753,
+    "max_abs_delta": {
+      "N": 0.0,
+      "y": 0.0,
+      "r": 0.0,
+      "d0": 0.0,
+      "Rperm": 0.0,
+      "sublayer_sum": 1.7763568394002505e-15
+    }
+  },
+  "E0": {
+    "valid_points": 2753,
+    "permanent_plus_datum": {
+      "rmse_mm": 0.055885264545341734,
+      "archived_rmse_mm": 0.0558852645453417
+    },
+    "recoverable": {
+      "rmse_mm": 0.08051244368810895,
+      "archived_rmse_mm": 0.0805124436881089
+    }
+  }
+}

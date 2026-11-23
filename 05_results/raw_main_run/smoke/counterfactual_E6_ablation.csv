@@ -1,0 +1,5 @@
+exp,folds,fold,seed,model,protocol,setting,frac_increase,frac_decrease,mean_delta
+E6_ablation,manuscript,0,0,mssa:no_disc,counterfactual,temp_plus5,1.0,0.0,0.6452422941422177
+E6_ablation,manuscript,0,0,mssa:no_disc,counterfactual,load_x2,1.0,0.0,0.49924157396351376
+E6_ablation,manuscript,0,0,mssa:neural_ssm,counterfactual,temp_plus5,0.1917808219178082,0.8082191780821918,-0.008862044807180119
+E6_ablation,manuscript,0,0,mssa:neural_ssm,counterfactual,load_x2,1.0,0.0,2.2325440274054174
